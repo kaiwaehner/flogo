@@ -17,7 +17,7 @@ const (
 	partition = 0
 )
 
-var kafkaAddrs = []string{"localhost93.201.162.142:9092", "93.201.162.142:9093"}
+var kafkaAddrs = []string{"192.168.2.82:9092", "192.168.2.82:9093"}
 
 // KafkaActivity is a Kafka Activity implementation
 type KafkaActivity struct {
